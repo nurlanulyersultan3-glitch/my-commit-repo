@@ -1,9 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="kk">
 <head>
-  <title>My Commit Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Commit Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Welcome to my project!</h1>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyProject</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Басты бет</a></li>
+                <li><a href="about.html">Биз туралы</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">Welcome to my project!</h1>
+            <p class="hero-subtitle">HTML мен CSS .</p>
+            <div class="cta-buttons">
+                <a href="about.html" class="btn btn-primary">Толығырақ білу</a>
+                <a href="#features" class="btn btn-secondary">Мүмкіндіктер</a>
+            </div>
+        </div>
+    </main>
+
+    <section id="features" class="features-section">
+        <div class="container cards-grid">
+            <div class="card">
+                <h3>Жылдамдық</h3>
+                <p>Таза әрі жеңіл код беттердің заматта жүктелуін қамтамасыз етеді.</p>
+            </div>
+            <div class="card">
+                <h3>Адаптивтілік</h3>
+                <p>Сайт компьютерде де, мобильді құрылғыларда да өте әдемі көрінеді.</p>
+            </div>
+            <div class="card">
+                <h3>Дизайн</h3>
+                <p>Ыңғайлы градиенттері бар заманауи күңгірт стиль.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 My Commit Project. Барлық құқықтар қорғалған.</p>
+        </div>
+    </footer>
 </body>
 </html>
